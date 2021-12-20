@@ -12,7 +12,8 @@ opt_size = 1
 use_remote = 0
 # write results to excel file?
 to_excel = 1
-# use random (1) or the deterministic deterministic (0)
+# use random (1) or the deterministic (0) Simulation strategy
+# (refer to paper for details)
 use_sim = 1
 # invoke qiskit to draw the output circuit
 draw_circuit = 0
@@ -22,7 +23,7 @@ method_AG = ['IBM QX20']
 # choose benchmark set
 #'B114', 'B11', 'Breal' or 'Bran'
 benchmark = 'B114' 
-# only valid for Breal banchmark
+# only valid for random banchmark set Bran
 # maximum and minimum allowed # qubits in the input circuits
 ben_para = {'min_num_q': 1, 'max_num_q': 1} 
 
